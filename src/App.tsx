@@ -1,13 +1,20 @@
 import './App.css'
+import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
 
 function App() {
   return (
-    <main>
-      
-      <Hero />
+    <>
 
-    </main>
+      <Header />
+
+      <main>
+        
+        <Hero />
+
+      </main>
+
+    </>
   )
 }
 
