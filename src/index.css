@@ -1,4 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
 
+:root {
+  --clr-white-pri: #FFF;
+  --clr-white-sec: #FCF8FF;
+  --clr-teal: #44FFA1;
+  --clr-grey: #584D62;
+  --clr-purple: #24053E;
+  --font-fam-head: 'Fraunces', 'Times New Roman', serif;
+  --font-fam-body: 'Manrope', Arial, sans-serif;
+  --font-head-lg: 600 80px/80px var(--font-fam-head);
+  --font-head-md: 600 56px/64px var(--font-fam-head);
+  --font-head-sm: 600 32px/40px var(--font-fam-head);
+  --font-body: 18px/32px var(--font-fam-body);
+}
 
 *,
 *::before,
@@ -6,6 +21,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font: var(--font-body);
 }
 
 button {
