@@ -9,10 +9,25 @@
   --clr-purple: #24053E;
   --font-fam-head: 'Fraunces', 'Times New Roman', serif;
   --font-fam-body: 'Manrope', Arial, sans-serif;
-  --font-head-lg: 600 80px/80px var(--font-fam-head);
-  --font-head-md: 600 56px/64px var(--font-fam-head);
-  --font-head-sm: 600 32px/40px var(--font-fam-head);
-  --font-body: 18px/32px var(--font-fam-body);
+  --font-head-lg: 600 50px/50px var(--font-fam-head);
+  --font-head-md: 600 32px/48px var(--font-fam-head);
+  --font-head-sm: 600 28px/36px var(--font-fam-head);
+  --font-body: 16px/28px var(--font-fam-body);
+}
+
+@media screen and (min-width: 481px) {
+  :root {
+    --font-head-lg: 600 60px/60px var(--font-fam-head);
+    --font-head-md: 600 48px/56px var(--font-fam-head);
+  }
+}
+@media screen and (min-width: 769px) {
+  :root {
+    --font-head-lg: 600 80px/80px var(--font-fam-head);
+    --font-head-md: 600 56px/64px var(--font-fam-head);
+    --font-head-sm: 600 32px/40px var(--font-fam-head);
+    --font-body: 18px/32px var(--font-fam-body);
+  }
 }
 
 *,
