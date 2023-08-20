@@ -4,6 +4,8 @@
     font-weight: bold;
     line-height: 32px;
     letter-spacing: -0.16px;
+    padding-inline: 24px;
+    height: 55px;
     background-color: var(--clr-teal);
     border: none;
     border-radius: 0;
@@ -11,7 +13,10 @@
 
 @media screen and (min-width: 769px) {
     .button {
+        padding-inline: 25px;
+        min-width: 161px;
         font-size: 18px;
         letter-spacing: -0.18px;
+        height: 61px;
     }
 }
