@@ -1,0 +1,30 @@
+.hero {
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--clr-purple);
+    z-index: -1;
+}
+
+.hero h1 {
+    text-align: center;
+    color: var(--clr-white-pri);
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    content: '';
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: var(--clr-teal);
+}

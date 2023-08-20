@@ -1,0 +1,17 @@
+.button {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    background-color: var(--clr-teal);
+    border: none;
+    border-radius: 0;
+}
+
+@media screen and (min-width: 769px) {
+    .button {
+        font-size: 18px;
+        letter-spacing: -0.18px;
+    }
+}
