@@ -5,7 +5,8 @@
     align-items: center;
     gap: 40px;
     padding-top: 28px;
-    padding-bottom: 156px;
+    padding-bottom: 138px;
+    background-color: var(--clr-purple);
 }
 
 @media screen and (min-width: 769px) {
@@ -27,7 +28,12 @@
 .hero::after {
     content: '';
     position: absolute;
-    inset: 0;
+    bottom: -18px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 110%;
+    height: 40px;
+    border-radius: 100%;
     background-color: var(--clr-purple);
     z-index: -1;
 }
@@ -49,4 +55,12 @@
     width: 100%;
     height: 3px;
     background-color: var(--clr-teal);
+}
+
+.img {
+    position: absolute;
+    width: 85%;
+    bottom: calc(-1 * calc(85vw * 0.35));
+    left: 50%;
+    transform: translateX(-50%);
 }
