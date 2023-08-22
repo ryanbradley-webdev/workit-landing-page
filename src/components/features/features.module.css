@@ -14,12 +14,13 @@
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1000px) {
     .features {
         grid-template-columns: repeat(3, 1fr);
         column-gap: 20px;
-        max-width: 1200px;
+        max-width: 1114px;
         margin-inline: auto;
+        margin-top: 326px;
     }
 }
 

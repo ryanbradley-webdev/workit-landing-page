@@ -15,9 +15,10 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 800px) {
     .hero {
         gap: 37px;
+        padding-bottom: 326px;
     }
 }
 
@@ -42,6 +43,20 @@
     border-radius: 100%;
     background-color: var(--clr-purple);
     z-index: -1;
+}
+
+@media screen and (min-width: 481px) {
+    .hero::after {
+        height: 100px;
+        bottom: -30px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero::after {
+        height: 140px;
+        bottom: -50px;
+    }
 }
 
 .hero h1 {
@@ -77,6 +92,13 @@
     .img {
         width: 70%;
         bottom: calc(-1 * calc(70vw * 0.32));
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .img {
+        width: 715px;
+        bottom: -200px;
     }
 }
 

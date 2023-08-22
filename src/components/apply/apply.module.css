@@ -2,13 +2,20 @@
     margin-inline: 16px;
     margin-top: 100px;
     margin-bottom: 10px;
+    max-width: 1114px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 695px) {
     .apply {
         display: grid;
         grid-template-columns: 281px 1fr;
         margin-inline: 40px;
+    }
+}
+
+@media screen and (min-width: 1194px) {
+    .apply {
+        margin-inline: auto;
     }
 }
 
@@ -33,7 +40,7 @@
     margin-bottom: 24px;
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (max-width: 694px) {
     .apply > div {
         text-align: center;
     }
@@ -44,7 +51,13 @@
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 481px) {
+    .apply > div p {
+        margin-block: 24px;
+    }
+}
+
+@media screen and (min-width: 695px) {
     .apply > img {
         width: 281px;
     }
@@ -53,6 +66,8 @@
         position: relative;
         margin-left: -106px;
         margin-top: 151px;
+        padding: 56px;
+        padding-top: 48px;
     }
 
     .apply > div::after {
@@ -60,5 +75,19 @@
         position: absolute;
         bottom: -110px;
         right: 0;
+    }
+
+    .apply > div p {
+        margin-block: 32px;
+    }
+}
+
+@media screen and (min-width: 1043px) {
+    .apply {
+        grid-template-columns: 477px 1fr;
+    }
+
+    .apply > img {
+        width: 477px;
     }
 }
