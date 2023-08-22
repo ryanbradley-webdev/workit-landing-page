@@ -1,4 +1,8 @@
-
+#root {
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
 
 h1 {
     font: var(--font-head-lg);
