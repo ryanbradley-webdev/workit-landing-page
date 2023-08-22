@@ -15,6 +15,12 @@ export default function Hero() {
                 Learn more
             </Button>
 
+            <img
+                src="/image-hero.webp"
+                alt=""
+                className={styles.img}
+            />
+
         </section>
     )
 }
