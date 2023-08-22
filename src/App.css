@@ -7,3 +7,7 @@
 h1 {
     font: var(--font-head-lg);
 }
+
+h3 {
+    font: var(--font-head-sm);
+}

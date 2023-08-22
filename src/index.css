@@ -14,6 +14,7 @@
   --font-head-sm: 600 28px/36px var(--font-fam-head);
   --font-body: 16px/28px var(--font-fam-body);
   --font-link: bold 16px/32px var(--font-fam-body);
+  --font-number: 600 20px/36px var(--font-fam-head);
   --space-link: -0.16px;
 }
 
