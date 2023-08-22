@@ -39,6 +39,7 @@
 }
 
 .hero h1 {
+    margin-inline: 16px;
     text-align: center;
     color: var(--clr-white-pri);
 }
