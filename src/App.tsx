@@ -1,7 +1,8 @@
-import './App.css'
-import Features from './components/features/Features'
 import Header from './components/header/Header'
 import Hero from './components/hero/Hero'
+import Features from './components/features/Features'
+import Apply from './components/apply/Apply'
+import './App.css'
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
         <Hero />
 
         <Features />
+
+        <Apply />
 
       </main>
 

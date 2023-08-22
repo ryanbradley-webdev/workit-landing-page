@@ -8,6 +8,10 @@ h1 {
     font: var(--font-head-lg);
 }
 
+h2 {
+    font: var(--font-head-md);
+}
+
 h3 {
     font: var(--font-head-sm);
 }
