@@ -14,6 +14,15 @@
     }
 }
 
+@media screen and (min-width: 800px) {
+    .features {
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        max-width: 1200px;
+        margin-inline: auto;
+    }
+}
+
 .feature_detail {
     display: flex;
     flex-direction: column;
@@ -27,6 +36,12 @@
         flex-direction: row;
         text-align: left;
         gap: 16px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .feature_detail {
+        gap: 56px;
     }
 }
 
