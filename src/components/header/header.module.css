@@ -24,6 +24,11 @@
 .link {
     position: relative;
     color: var(--clr-white-pri);
+    transition: color 0.15s ease-in-out;
+}
+
+.link:is(:hover, :focus) {
+    color: var(--clr-teal);
 }
 
 .link::after {

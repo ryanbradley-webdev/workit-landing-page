@@ -2,8 +2,9 @@
     padding-inline: 24px;
     height: 55px;
     background-color: var(--clr-teal);
-    border: none;
+    border: 1px solid var(--clr-teal);
     border-radius: 0;
+    transition: all 0.15s ease-in-out;
 }
 
 @media screen and (min-width: 769px) {
@@ -12,4 +13,9 @@
         min-width: 161px;
         height: 61px;
     }
+}
+
+.button:is(:hover, :focus) {
+    color: var(--clr-teal);
+    background-color: transparent;
 }
