@@ -7,6 +7,7 @@
     padding-top: 28px;
     padding-bottom: 138px;
     background-color: var(--clr-purple);
+    isolation: isolate;
 }
 
 @media screen and (min-width: 480px) {
@@ -104,6 +105,7 @@
 
 .pattern {
     position: absolute;
+    z-index: -1;
 }
 
 .one {
