@@ -9,6 +9,12 @@
     background-color: var(--clr-purple);
 }
 
+@media screen and (min-width: 480px) {
+    .hero {
+        padding-bottom: 200px;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .hero {
         gap: 37px;
@@ -42,6 +48,7 @@
     margin-inline: 16px;
     text-align: center;
     color: var(--clr-white-pri);
+    max-width: 12ch;
 }
 
 .underline {
@@ -64,4 +71,31 @@
     bottom: calc(-1 * calc(85vw * 0.35));
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media screen and (min-width: 481px) {
+    .img {
+        width: 70%;
+        bottom: calc(-1 * calc(70vw * 0.32));
+    }
+}
+
+.pattern {
+    position: absolute;
+}
+
+.one {
+    top: -30px;
+    left: -230px;
+}
+
+.two {
+    top: 200px;
+    right: -100px;
+}
+
+@media screen and (max-width: 480px) {
+    .pattern {
+        display: none;
+    }
 }

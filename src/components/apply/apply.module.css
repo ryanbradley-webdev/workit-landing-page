@@ -4,17 +4,25 @@
     margin-bottom: 10px;
 }
 
+@media screen and (min-width: 500px) {
+    .apply {
+        display: grid;
+        grid-template-columns: 281px 1fr;
+        margin-inline: 40px;
+    }
+}
+
 .apply > img {
     display: block;
     width: 80%;
+    height: auto;
     margin-inline: auto;
 }
 
 .apply > div {
     position: relative;
-    margin-top: -53px;
     padding: 32px;
-    text-align: center;
+    margin-top: -53px;
     color: var(--clr-white-pri);
     background-color: var(--clr-purple);
     z-index: 5;
@@ -25,7 +33,32 @@
     margin-bottom: 24px;
 }
 
-.apply > div button {
-    display: block;
-    margin-inline: auto;
+@media screen and (max-width: 499px) {
+    .apply > div {
+        text-align: center;
+    }
+
+    .apply > div button {
+        display: block;
+        margin-inline: auto;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .apply > img {
+        width: 281px;
+    }
+
+    .apply > div {
+        position: relative;
+        margin-left: -106px;
+        margin-top: 151px;
+    }
+
+    .apply > div::after {
+        content: url(/bg-pattern-3.svg);
+        position: absolute;
+        bottom: -110px;
+        right: 0;
+    }
 }

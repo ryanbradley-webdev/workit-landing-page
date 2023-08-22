@@ -6,12 +6,28 @@
     padding-bottom: 71px;
 }
 
+@media screen and (min-width: 500px) {
+    .features {
+        margin-top: 222px;
+        margin-inline: 98px;
+        row-gap: 48px;
+    }
+}
+
 .feature_detail {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
     text-align: center;
+}
+
+@media screen and (min-width: 500px) and (max-width: 769px) {
+    .feature_detail {
+        flex-direction: row;
+        text-align: left;
+        gap: 16px;
+    }
 }
 
 .feature_detail h3 {
@@ -24,6 +40,7 @@
 }
 
 .number {
+    flex-shrink: 0;
     display: grid;
     place-items: center;
     height: 46px;

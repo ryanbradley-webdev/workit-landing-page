@@ -21,6 +21,9 @@ export default function Hero() {
                 className={styles.img}
             />
 
+            <img src="/bg-pattern-1.svg" alt="" className={styles.pattern + ' ' + styles.one} />
+            <img src="/bg-pattern-2.svg" alt="" className={styles.pattern + ' ' + styles.two} />
+
         </section>
     )
 }
