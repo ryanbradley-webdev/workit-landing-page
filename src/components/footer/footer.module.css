@@ -1,0 +1,21 @@
+.footer {
+    display: grid;
+    place-items: center;
+    row-gap: 58px;
+    width: fit-content;
+    padding-block: 64px;
+    margin-inline: auto;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.socials button {
+    border: none;
+    background: none;
+    height: fit-content;
+    width: fit-content;
+}

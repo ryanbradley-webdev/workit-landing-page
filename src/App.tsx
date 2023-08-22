@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero'
 import Features from './components/features/Features'
 import Apply from './components/apply/Apply'
 import './App.css'
+import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Apply />
 
       </main>
+
+      <Footer />
 
     </>
   )
